@@ -48,3 +48,21 @@ However, in order to start getting consistency throughout the website, all of th
 * The <main> tag must contain two direct sub-tags in that order: <article> and <aside>:
     * <article> contains the content of your webpage: texts, links, images, tweets, … This is the part of index.html and tweets.html that you have already written.
     * <aside> contains a single paragraph, just reading for now “placeholder to add comment thread later”.
+
+
+4. Add some level of creativity
+mandatory
+Update your index.html to add a table with information about some of the learners.
+
+On a new line before the last </article> tag, let’s introduce a container for the table of learners.
+
+The bottom part of the <article> tag (before its closing tag) should contain a table <table> with the following structure:
+
+Use the <thead> tag to define the table header row.
+Use the <tbody> tag to contain the table data rows.
+Populate the table with the following data:
+Name	Age	Country
+John	25	USA
+Emily	28	Canada
+Michael	32	Australia
+Sophia	21	UK
